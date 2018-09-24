@@ -1,3 +1,5 @@
+import UserList from './user-list.js';
+
 export default new VueRouter({
   routes: [
     {
@@ -8,9 +10,7 @@ export default new VueRouter({
     },
     {
       path: '/users',
-      component: {
-        template: '<div>ユーザー一覧です。</div>',
-      },
+      component: UserList,
     },
   ]
 });
