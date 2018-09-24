@@ -1,6 +1,6 @@
+import router from './router.js';
+
 const app = new Vue({
   el: '#app',
-  data: {
-    msg: 'Hello'
-  },
+  router
 });
